@@ -46,7 +46,7 @@
   calculated dynamically. Currently, only `config.prompt_name` supports it
   ([#1833](https://github.com/pry/pry/pull/1833))
 
-##### Breaking changes
+#### Breaking changes
 
 * Deleted the `Pry::Helpers::Text.bright_default` alias for
   `Pry::Helpers::Text.bold` ([#1795](https://github.com/pry/pry/pull/1795))
@@ -67,7 +67,7 @@
     element and not `nil`)
 * Renamed `Pry.config.prompt_safe_objects` to `Pry.config.prompt_safe_contexts`
 
-##### Deprecations
+#### Deprecations
 
 * Deprecated `_pry_.input_array` & `_pry_.output_array` in favour of
   `_pry_.input_ring` & `_pry_.output_ring` respectively
