@@ -67,7 +67,7 @@
     element and not `nil`)
 * Renamed `Pry.config.prompt_safe_objects` to `Pry.config.prompt_safe_contexts`
 * Removed deprecated `Pry::CommandSet#before_command` &
-  `Pry::CommandSet#after_command` ([#1838](https://github.com/pry/pry/pull/1838))
+  `Pry::CommandSet#after_command` ([#1839](https://github.com/pry/pry/pull/1839))
 
 #### Deprecations
 
@@ -80,6 +80,9 @@
 * Deprecated `_pry_.input_array` & `_pry_.output_array` in favour of
   `_pry_.input_ring` and `_pry_.output_ring` respectively
   ([#1817](https://github.com/pry/pry/pull/1817))
+* Deprecated `Pry::Platform`. Use `Pry::Helpers::Platform` instead. Note that
+  `Pry::Helpers::BaseHelpers` doesn't include the module anymore
+  ([#1838](https://github.com/pry/pry/pull/1838))
 
 #### Bug fixes
 
